@@ -1,0 +1,54 @@
+{
+  "name": "Pixbiz Image Converter",
+  "short_name": "Pixbiz",
+  "description": "An image optimizer that can reduce file size by up to 90% with minimal quality loss",
+  "display": "standalone",
+  "start_url": "/",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "icons": [
+    {
+      "src": "https://pix.biz.id/assets/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "https://pix.biz.id/assets/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "text": "body",
+      "title": "title",
+      "url": "title"
+    }
+  },
+  "shortcuts": [
+    {
+      "name": "How To",
+      "short_name": "How To",
+      "url": "/#how-to-use"
+    },
+    {
+      "name": "FAQs",
+      "short_name": "FAQs",
+      "url": "/#faq"
+    },
+    {
+      "name": "Article",
+      "short_name": "Article",
+      "url": "/#article"
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "url": "/contact"
+    }
+  ]
+}

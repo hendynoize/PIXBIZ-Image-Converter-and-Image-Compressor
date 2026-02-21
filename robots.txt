@@ -21,4 +21,4 @@ Disallow: /license.txt
 Allow: /wp-admin/admin-ajax.php
 
 # Sitemap (GANTI dengan URL sitemap kamu)
-Sitemap: https://domainkamu.com/sitemap.xml
+Sitemap: https://pix.biz.id/sitemap.xml
